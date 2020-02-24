@@ -312,7 +312,7 @@
     </a>
 </div>
 
-<app-user [name]="'Balázsovits'"></app-user>
+<app-user [name]="rootName" (nameChanged)=onNameChanged($event)></app-user>
 
 
 
